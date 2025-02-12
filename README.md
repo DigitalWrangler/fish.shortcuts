@@ -1,9 +1,9 @@
-#Fish Shortcuts with aliases that make every day easier than writing long, boring commands! ✨🚀
+Fish Shortcuts with aliases that make every day easier than writing long, boring commands! ✨🚀
 
 Let's Make This Config Easy to Understand!
 In this guide, we'll walk through how to set up shortcuts that will save you time and effort every time you open your terminal. We’ll take it step-by-step and make everything as simple as possible. Ready? Let's dive in! 😄
 
-#Step 1: Reload Fish Config Automatically
+Step 1: Reload Fish Config Automatically
 Tired of typing source ~/.config/fish/config.fish every time you change something? Let’s automate that! First, we need to make the reload-fish.sh script executable.
 
 Run the Following Commands:
@@ -23,7 +23,7 @@ Now, you can simply type reload in the terminal whenever you need to restart or 
 
 
 
-#Step 2: Make Your Life Easier with mrun
+Step 2: Make Your Life Easier with mrun
 We don't want to keep typing chmod +x <filename> every time we want to make a file executable, right? Let’s automate that too with the mrun function!
 
 Run the Following Commands:
@@ -41,12 +41,12 @@ Reload your Fish configuration:
 reload
 
 
-#Now, you can simply type mrun <filename> to make any script executable! 🚀
+Now, you can simply type mrun <filename> to make any script executable! 🚀
 
 Now You're Ready for the Rest!
 With mrun in place, you can easily make any script executable by just typing mrun <script.sh>. Don't forget to run reload every time you add a new shortcut or alias! 😎
 
-#Dictionary of Shortcuts
+Dictionary of Shortcuts
 RELOAD-FISH 🔄
 This script makes it so you don’t have to type source ~/.config/fish/config.fish every time you want to reload your terminal. Just type:
 
@@ -54,7 +54,7 @@ This script makes it so you don’t have to type source ~/.config/fish/config.fi
 reload
 And boom, your Fish configuration is reloaded instantly! 🙌
 
-#SYSTEM 🖥️
+SYSTEM 🖥️
 The setup_mrun.sh script
 This script defines a Fish shell function called mrun, which makes files executable with ease.
 
@@ -66,7 +66,7 @@ Example Usage:
 mrun myscript.sh
 
 
-#GIT 🧑‍💻
+GIT 🧑‍💻
 With these Git aliases, you'll never have to type long Git commands again!
 
 gs: git status – Shows the current status of your Git repository.
@@ -79,7 +79,7 @@ gbr: git branch – Displays a list of branches in the repository.
 
 
 
-#NETWORKING 🌐
+NETWORKING 🌐
 Network tools, made simple!
 
 myip: curl ifconfig.me – Displays your public IP address.
